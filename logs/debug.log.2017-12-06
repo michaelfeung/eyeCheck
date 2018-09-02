@@ -1,0 +1,152 @@
+2017-12-06 09:29:12,545 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @455ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-12-06 09:29:12,577 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2017-12-06 09:29:18,554 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:61) 
+ - 进入到首页
+2017-12-06 09:29:24,831 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:181) 
+ - 滑块验证成功PhantomJSDriver: phantomjs on XP (e01f3970-da24-11e7-a128-7f012ac26fcf)
+2017-12-06 09:29:24,840 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:183) 
+ - 等待查询结果页加载完毕
+2017-12-06 09:29:35,419 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:186) 
+ - 跳转到查询结果页成功
+2017-12-06 09:29:36,392 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:195) 
+ - 自动获取得到了三个参数，可以绕过滑块了
+2017-12-06 09:29:36,393 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:189) 
+ - 三个参数获取成功
+2017-12-06 09:29:36,486 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:196) 
+ - 2017-12-06 09:29开始启动爬虫
+2017-12-06 09:29:36,492 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:324) 
+ - 已经已经下载好的公司13个
+2017-12-06 09:29:36,504 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:235) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-12-06 09:29:36,516 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-12-06 09:29:36,782 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-12-06 09:29:36,786 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-12-06 09:29:37,268 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-12-06 09:29:37,406 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-12-06 09:29:37,408 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:261) 
+ - 当前的参数是有效的
+2017-12-06 09:29:37,408 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-12-06 09:29:37,408 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-12-06 09:29:37,416 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-12-06 09:29:37,521 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-12-06 09:29:37,522 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-12-06 09:29:37,883 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-12-06 09:29:38,031 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-12-06 09:29:38,034 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:274) 
+ - 2017-12-06 09:29开始爬取详情页爬虫，2017-12-06 09:29结束爬虫，1条数据，一共用了1秒1成功查出0查不出来0条失败
+2017-12-06 09:29:38,034 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:402) 
+ - 新增缓存url结束
+2017-12-06 09:29:38,037 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:263) 
+ - 2017-12-06 09:29开始启动爬虫
+2017-12-06 09:29:38,038 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:265) 
+ - 爬虫的线程数为3
+2017-12-06 09:29:38,047 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:274) 
+ - 排除了0条查不出来的数据
+2017-12-06 09:29:38,050 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共13条已经爬出
+2017-12-06 09:29:38,051 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:277) 
+ - 还有1条数据要抓
+2017-12-06 09:29:38,053 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:448) 
+ - 1条数据被替换为详情页url,0条数据没有替换为详情url
+2017-12-06 09:29:38,072 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:290) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-12-06 09:29:38,082 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-12-06 09:29:38,202 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_WIhFXdqoBdKj5YcxX/4VdgJEPuZWpZEUZHmVOeHjEBCiRNHVa3OjFjvFlE8BfrFb-fjzeLcEHRI/eVvwzlNOW1w==
+2017-12-06 09:29:38,203 INFO us.codecraft.webmagic.Spider(Spider.java:422) 
+ - page status code error, page http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_WIhFXdqoBdKj5YcxX/4VdgJEPuZWpZEUZHmVOeHjEBCiRNHVa3OjFjvFlE8BfrFb-fjzeLcEHRI/eVvwzlNOW1w== , code: 502
+2017-12-06 09:29:39,203 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 1 pages downloaded.
+2017-12-06 09:29:39,206 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:310) 
+ - 2017-12-06 09:29开始爬虫，2017-12-06 09:29结束爬虫，1条数据，一共用了1秒
+2017-12-06 09:29:39,206 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:311) 
+ - 该文件有14条数据
+2017-12-06 09:29:39,207 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:312) 
+ - 找到之前爬取过的文件，,一共13条之前已经查出
+2017-12-06 09:29:39,207 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:313) 
+ - 有0条数据是该网站无法查出的
+2017-12-06 09:29:39,207 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:314) 
+ - 本次运行0条查出来了
+2017-12-06 09:29:39,208 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:316) 
+ - 有1条抓取失败
+2017-12-06 09:29:39,209 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共13条已经爬出
+2017-12-06 09:31:21,705 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @577ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-12-06 09:31:21,742 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2017-12-06 09:31:27,008 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:61) 
+ - 进入到首页
+2017-12-06 09:31:33,065 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:181) 
+ - 滑块验证成功PhantomJSDriver: phantomjs on XP (2ccb5e20-da25-11e7-8e3f-fdd28e72eca1)
+2017-12-06 09:31:33,073 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:183) 
+ - 等待查询结果页加载完毕
+2017-12-06 09:31:34,804 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:186) 
+ - 跳转到查询结果页成功
+2017-12-06 09:31:35,769 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:195) 
+ - 自动获取得到了三个参数，可以绕过滑块了
+2017-12-06 09:31:35,770 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:189) 
+ - 三个参数获取成功
+2017-12-06 09:31:35,853 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:196) 
+ - 2017-12-06 09:31开始启动爬虫
+2017-12-06 09:31:35,856 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:324) 
+ - 已经已经下载好的公司14个
+2017-12-06 09:31:35,863 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:235) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-12-06 09:31:35,864 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:402) 
+ - 新增缓存url结束
+2017-12-06 09:31:35,865 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:263) 
+ - 2017-12-06 09:31开始启动爬虫
+2017-12-06 09:31:35,866 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:265) 
+ - 爬虫的线程数为3
+2017-12-06 09:31:35,871 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:274) 
+ - 排除了0条查不出来的数据
+2017-12-06 09:31:35,874 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共13条已经爬出
+2017-12-06 09:31:35,877 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:277) 
+ - 还有1条数据要抓
+2017-12-06 09:31:35,881 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:448) 
+ - 1条数据被替换为详情页url,0条数据没有替换为详情url
+2017-12-06 09:31:35,884 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:290) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-12-06 09:31:35,903 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-12-06 09:31:40,327 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_WIhFXdqoBdKj5YcxX/4VdgJEPuZWpZEUZHmVOeHjEBCiRNHVa3OjFjvFlE8BfrFb-fjzeLcEHRI/eVvwzlNOW1w==
+2017-12-06 09:31:44,661 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=a8e25c0d-0124-1000-e000-443b0a060116&entType=4540&regOrg=440682
+2017-12-06 09:31:47,704 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=a8e25c0d-0124-1000-e000-443b0a060116&entType=4540&regOrg=440682
+2017-12-06 09:31:47,765 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取佛山市南海区亚港商务酒店第1条数据
+2017-12-06 09:31:48,765 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 1 pages downloaded.
+2017-12-06 09:31:48,767 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:310) 
+ - 2017-12-06 09:31开始爬虫，2017-12-06 09:31结束爬虫，1条数据，一共用了12秒
+2017-12-06 09:31:48,768 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:311) 
+ - 该文件有14条数据
+2017-12-06 09:31:48,769 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:312) 
+ - 找到之前爬取过的文件，,一共13条之前已经查出
+2017-12-06 09:31:48,769 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:313) 
+ - 有0条数据是该网站无法查出的
+2017-12-06 09:31:48,770 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:314) 
+ - 本次运行1条查出来了
+2017-12-06 09:31:48,771 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:316) 
+ - 有0条抓取失败
+2017-12-06 09:31:48,778 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共14条已经爬出

@@ -1,0 +1,2428 @@
+2018-08-29 08:29:43,740 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @826ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 08:29:44,036 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:171) 
+ - 2018-08-29 08:29开始启动爬虫
+2018-08-29 08:29:44,036 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:173) 
+ - 爬虫的线程数为3
+2018-08-29 08:29:44,060 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:306) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 08:29:44,065 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:182) 
+ - 排除了0条查不出来的数据
+2018-08-29 08:29:44,067 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:371) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 08:29:44,067 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:185) 
+ - 还有6条数据要抓
+2018-08-29 08:29:44,072 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:336) 
+ - 4条数据被替换为详情页url,2条数据没有替换为详情url
+2018-08-29 08:29:45,371 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 08:29:49,349 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=cc3e6728c98d83ab7dd95eb2c640d218
+2018-08-29 08:29:52,243 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=844c86bad8975826cdacfdad9eccbccb
+2018-08-29 08:29:53,552 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:29:55,164 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=f531f9248d14c8b2c3d4eafb3895758f
+2018-08-29 08:29:55,874 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:29:58,434 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:29:58,990 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:30:00,737 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:30:04,173 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:30:09,119 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:11,373 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:13,555 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e8563c25556c31aeeae0ae3491871732
+2018-08-29 08:30:14,443 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - https://www.tianyancha.com/company/24416401在天眼查网站中无法查出
+2018-08-29 08:30:14,815 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:16,979 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:30:17,625 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2328112008
+2018-08-29 08:30:17,838 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:117) 
+ - 南海农商行在天眼查网站中无法查出
+2018-08-29 08:30:17,852 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - 123欠妥在天眼查网站中无法查出
+2018-08-29 08:30:18,855 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=0a9325b7be3a0854df9f36a564936f39
+2018-08-29 08:30:18,868 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=a34ca74d5b3385bc2a183a7ad83992d7
+2018-08-29 08:30:20,383 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:30:22,492 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:30:22,569 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:30:25,394 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:30:25,564 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:30:31,006 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:34,125 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - https://www.tianyancha.com/company/2316837406在天眼查网站中无法查出
+2018-08-29 08:30:35,965 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:36,165 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:30:39,021 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - https://www.tianyancha.com/company/4584507在天眼查网站中无法查出
+2018-08-29 08:30:39,232 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - https://www.tianyancha.com/company/1207250686在天眼查网站中无法查出
+2018-08-29 08:30:40,232 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 7 pages downloaded.
+2018-08-29 08:30:41,880 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:218) 
+ - 2018-08-29 08:29开始爬虫，2018-08-29 08:30结束爬虫，6条数据，一共用了58秒
+2018-08-29 08:30:41,881 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:219) 
+ - 该文件有6条数据
+2018-08-29 08:30:41,881 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:220) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 08:30:41,881 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:221) 
+ - 有0条数据是该网站无法查出的
+2018-08-29 08:30:41,882 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:222) 
+ - 本次运行0条查出来了
+2018-08-29 08:30:41,882 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:224) 
+ - 有6条抓取失败
+2018-08-29 08:30:41,888 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:371) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 08:32:06,890 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @590ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 08:32:07,070 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:171) 
+ - 2018-08-29 08:32开始启动爬虫
+2018-08-29 08:32:07,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:173) 
+ - 爬虫的线程数为8
+2018-08-29 08:32:07,106 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:306) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 08:32:07,109 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:182) 
+ - 排除了0条查不出来的数据
+2018-08-29 08:32:07,110 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:371) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 08:32:07,110 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:185) 
+ - 还有6条数据要抓
+2018-08-29 08:32:07,111 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:338) 
+ - urlCompany.txt文件未找到
+2018-08-29 08:32:08,373 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 08:32:12,029 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d1956ff4f759aee78fe4a12ecabfaece
+2018-08-29 08:32:14,957 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=f531f9248d14c8b2c3d4eafb3895758f
+2018-08-29 08:32:15,768 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:17,864 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 08:32:19,128 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:21,219 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:21,544 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:21,772 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=a51f620ad3a96aee4cf544199a78badb
+2018-08-29 08:32:24,379 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:25,652 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=cc3e6728c98d83ab7dd95eb2c640d218
+2018-08-29 08:32:26,808 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:29,944 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:30,388 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 08:32:31,909 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:32:34,496 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 08:32:34,904 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:35,081 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:32:37,845 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/4584507
+2018-08-29 08:32:38,119 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:69) 
+ - 成功爬取杭州阿里创业投资有限公司第1条数据
+2018-08-29 08:32:38,150 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - 123欠妥在天眼查网站中无法查出
+2018-08-29 08:32:40,883 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:45,587 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:32:48,066 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:50,162 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2328112008
+2018-08-29 08:32:50,287 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:117) 
+ - 南海农商行在天眼查网站中无法查出
+2018-08-29 08:32:51,500 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:32:53,695 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 08:32:56,401 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 08:32:56,471 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:69) 
+ - 成功爬取佛山农村商业银行股份有限公司第2条数据
+2018-08-29 08:32:58,736 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:33:04,375 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 08:33:04,622 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 08:33:04,673 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:69) 
+ - 成功爬取网易（杭州）网络有限公司第3条数据
+2018-08-29 08:33:09,163 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/24416401
+2018-08-29 08:33:09,188 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:69) 
+ - 成功爬取华为技术有限公司第4条数据
+2018-08-29 08:33:10,190 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 11 pages downloaded.
+2018-08-29 08:33:15,331 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:218) 
+ - 2018-08-29 08:32开始爬虫，2018-08-29 08:33结束爬虫，6条数据，一共用了68秒
+2018-08-29 08:33:15,332 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:219) 
+ - 该文件有6条数据
+2018-08-29 08:33:15,332 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:220) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 08:33:15,332 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:221) 
+ - 有0条数据是该网站无法查出的
+2018-08-29 08:33:15,332 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:222) 
+ - 本次运行4条查出来了
+2018-08-29 08:33:15,332 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:224) 
+ - 有2条抓取失败
+2018-08-29 08:33:15,337 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:358) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 09:09:12,731 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @925ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 09:09:12,992 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 09:09开始启动爬虫
+2018-08-29 09:09:12,992 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 09:09:13,025 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:301) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 09:09:13,029 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:177) 
+ - 排除了0条查不出来的数据
+2018-08-29 09:09:13,031 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:366) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 09:09:13,032 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:180) 
+ - 还有6条数据要抓
+2018-08-29 09:09:13,034 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:333) 
+ - urlCompany.txt文件未找到
+2018-08-29 09:09:14,630 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 09:09:20,840 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=a51f620ad3a96aee4cf544199a78badb
+2018-08-29 09:09:23,069 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=cc3e6728c98d83ab7dd95eb2c640d218
+2018-08-29 09:09:24,476 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:25,313 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 09:09:26,670 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:28,326 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 09:09:28,845 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:29,498 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:31,240 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=f531f9248d14c8b2c3d4eafb3895758f
+2018-08-29 09:09:31,792 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:32,787 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:33,841 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:34,166 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d1956ff4f759aee78fe4a12ecabfaece
+2018-08-29 09:09:35,395 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:37,298 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:37,934 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:09:39,179 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:40,231 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:42,391 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:43,100 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:09:44,455 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:46,005 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/24416401
+2018-08-29 09:09:46,271 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='https://www.tianyancha.com/company/24416401', method='null', extras={fastDownload=true, actionHtmls=com.crawler.industry.guangdong.SearchAction@1899b700, regNum=null, name=华为技术有限公司}, priority=3, headers={}, cookies={}} error
+java.lang.NullPointerException
+	at com.crawler.pipeline.FastFosanPipeline.process(FastFosanPipeline.java:61)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 09:09:47,381 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2328112008
+2018-08-29 09:09:47,469 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:125) 
+ - 南海农商行在天眼查网站中无法查出
+2018-08-29 09:09:47,870 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:49,232 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 09:09:49,263 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='https://www.tianyancha.com/company/2316837406', method='null', extras={fastDownload=true, actionHtmls=com.crawler.industry.guangdong.SearchAction@29a7f460, regNum=null, name=佛山农村商业银行股份有限公司}, priority=3, headers={}, cookies={}} error
+java.lang.NullPointerException
+	at com.crawler.pipeline.FastFosanPipeline.process(FastFosanPipeline.java:61)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 09:09:49,830 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:52,868 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:90) 
+ - 123欠妥在天眼查网站中无法查出
+2018-08-29 09:09:52,921 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 09:09:52,950 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='https://www.tianyancha.com/company/1207250686', method='null', extras={fastDownload=true, actionHtmls=com.crawler.industry.guangdong.SearchAction@32991686, regNum=null, name=网易（杭州）网络有限公司}, priority=3, headers={}, cookies={}} error
+java.lang.NullPointerException
+	at com.crawler.pipeline.FastFosanPipeline.process(FastFosanPipeline.java:61)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 09:09:53,753 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:09:58,105 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/4584507
+2018-08-29 09:09:58,116 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='https://www.tianyancha.com/company/4584507', method='null', extras={fastDownload=true, actionHtmls=com.crawler.industry.guangdong.SearchAction@76b47307, regNum=null, name=杭州阿里创业投资有限公司}, priority=3, headers={}, cookies={}} error
+java.lang.NullPointerException
+	at com.crawler.pipeline.FastFosanPipeline.process(FastFosanPipeline.java:61)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 09:09:58,117 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 11 pages downloaded.
+2018-08-29 09:10:03,703 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:213) 
+ - 2018-08-29 09:09开始爬虫，2018-08-29 09:10结束爬虫，6条数据，一共用了50秒
+2018-08-29 09:10:03,704 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:214) 
+ - 该文件有6条数据
+2018-08-29 09:10:03,704 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:215) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 09:10:03,704 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:216) 
+ - 有0条数据是该网站无法查出的
+2018-08-29 09:10:03,704 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:217) 
+ - 本次运行0条查出来了
+2018-08-29 09:10:03,705 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:219) 
+ - 有6条抓取失败
+2018-08-29 09:10:03,712 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:366) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 09:11:39,149 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1107ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 09:11:39,465 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 09:11开始启动爬虫
+2018-08-29 09:11:39,466 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 09:11:39,539 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:301) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 09:11:39,544 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:177) 
+ - 排除了0条查不出来的数据
+2018-08-29 09:11:39,546 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:366) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 09:11:39,548 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:180) 
+ - 还有1条数据要抓
+2018-08-29 09:11:39,549 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:333) 
+ - urlCompany.txt文件未找到
+2018-08-29 09:11:41,042 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 09:11:45,200 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 09:11:48,880 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:11:54,501 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:12:05,381 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:12:11,498 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 09:12:40,323 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='https://www.tianyancha.com/company/2316837406', method='null', extras={fastDownload=true, actionHtmls=com.crawler.industry.guangdong.SearchAction@61601aeb, regNum=null, name=佛山农村商业银行股份有限公司}, priority=3, headers={}, cookies={}} error
+java.lang.NullPointerException
+	at com.crawler.pipeline.FastFosanPipeline.process(FastFosanPipeline.java:61)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:418)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 09:12:40,332 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 09:12:41,442 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:213) 
+ - 2018-08-29 09:11开始爬虫，2018-08-29 09:12结束爬虫，1条数据，一共用了62秒
+2018-08-29 09:12:41,443 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:214) 
+ - 该文件有1条数据
+2018-08-29 09:12:41,496 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:215) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 09:12:41,497 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:216) 
+ - 有0条数据是该网站无法查出的
+2018-08-29 09:12:41,497 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:217) 
+ - 本次运行0条查出来了
+2018-08-29 09:12:41,497 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:219) 
+ - 有1条抓取失败
+2018-08-29 09:12:41,500 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:301) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 09:12:41,501 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:366) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 09:14:47,055 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @618ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 09:14:47,262 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 09:14开始启动爬虫
+2018-08-29 09:14:47,264 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 09:14:47,284 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:301) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 09:14:47,288 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:177) 
+ - 排除了0条查不出来的数据
+2018-08-29 09:14:47,290 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:366) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 09:14:47,290 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:180) 
+ - 还有1条数据要抓
+2018-08-29 09:14:47,291 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:333) 
+ - urlCompany.txt文件未找到
+2018-08-29 09:14:48,514 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 09:14:52,386 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 09:14:56,653 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 09:15:01,861 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:63) 
+ - 等待查询结果页加载完毕
+2018-08-29 09:15:12,591 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 跳转到查询结果页成功
+2018-08-29 09:15:18,275 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 09:15:18,578 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取佛山农村商业银行股份有限公司第1条数据
+2018-08-29 09:15:19,579 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 09:15:21,057 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:213) 
+ - 2018-08-29 09:14开始爬虫，2018-08-29 09:15结束爬虫，1条数据，一共用了33秒
+2018-08-29 09:15:21,065 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:214) 
+ - 该文件有1条数据
+2018-08-29 09:15:21,066 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:215) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 09:15:21,066 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:216) 
+ - 有0条数据是该网站无法查出的
+2018-08-29 09:15:21,067 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:217) 
+ - 本次运行1条查出来了
+2018-08-29 09:15:21,067 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:219) 
+ - 有0条抓取失败
+2018-08-29 09:15:21,069 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:301) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 09:15:21,070 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:353) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
+2018-08-29 10:31:41,683 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @807ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:31:42,022 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:31开始启动爬虫
+2018-08-29 10:31:42,023 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:31:42,049 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:359) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:31:42,055 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 10:31:43,445 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:31:47,196 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 10:31:50,118 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:31:50,921 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:31:52,890 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 10:31:53,789 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:31:55,893 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 10:31:56,026 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:31:57,174 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:31:58,600 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:32:00,026 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:32:02,502 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:32:05,946 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:32:06,682 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:32:09,249 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:32:12,733 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 10:32:13,154 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:32:13,209 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取佛山农村商业银行股份有限公司第1条数据
+2018-08-29 10:32:14,552 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 10:32:14,978 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取美的集团股份有限公司第2条数据
+2018-08-29 10:32:16,582 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:32:17,886 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 10:32:17,924 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第3条数据
+2018-08-29 10:32:23,414 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/150041670
+2018-08-29 10:32:23,435 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取腾讯科技（深圳）有限公司第4条数据
+2018-08-29 10:32:24,442 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 8 pages downloaded.
+2018-08-29 10:32:28,749 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 10:31开始爬虫，2018-08-29 10:32结束爬虫，4条数据，一共用了46秒
+2018-08-29 10:32:28,750 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 10:32:28,750 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 10:32:28,750 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行4条查出来了
+2018-08-29 10:32:28,750 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 10:32:28,757 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:294) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 10:32:28,759 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:346) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 10:40:20,129 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @2881ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:40:20,427 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:40开始启动爬虫
+2018-08-29 10:40:20,427 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:40:20,619 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:359) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:40:20,624 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 10:40:22,563 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:40:27,521 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:40:31,405 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:40:57,390 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:41:08,395 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:41:14,105 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 10:43:09,022 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1149ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:43:09,371 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:43开始启动爬虫
+2018-08-29 10:43:09,372 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:43:09,397 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:359) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:43:09,404 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 10:43:11,174 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:43:15,248 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 10:43:19,408 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:43:24,037 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:43:34,765 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:43:40,367 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 10:47:33,004 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1478ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:47:33,283 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:47开始启动爬虫
+2018-08-29 10:47:33,284 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:47:33,430 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:359) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:47:33,435 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 10:47:35,294 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:47:39,473 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:47:43,270 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:48:08,631 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:48:19,415 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:48:25,739 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 10:49:09,217 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取美的集团股份有限公司第1条数据
+2018-08-29 10:49:10,218 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 10:49:11,304 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 10:47开始爬虫，2018-08-29 10:49结束爬虫，1条数据，一共用了98秒
+2018-08-29 10:49:11,305 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有1条数据
+2018-08-29 10:49:11,308 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 10:49:11,312 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行1条查出来了
+2018-08-29 10:49:11,312 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 10:49:11,322 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:294) 
+ - 读取noUrlCompany.txt失败
+2018-08-29 10:49:11,326 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:346) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
+2018-08-29 10:53:09,774 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @484ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:53:09,953 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:53开始启动爬虫
+2018-08-29 10:53:09,953 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:53:09,968 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:357) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:53:09,972 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 10:53:10,781 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:53:13,506 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 10:53:16,412 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:53:17,258 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:53:21,377 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @504ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:53:21,557 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:53开始启动爬虫
+2018-08-29 10:53:21,557 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:53:21,571 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:357) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 10:53:21,575 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 10:53:22,349 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:53:25,157 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 10:53:28,073 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:53:29,116 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:53:30,325 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 10:53:32,249 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:53:32,584 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 10:53:33,910 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:53:34,059 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:53:36,059 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:53:36,832 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:53:38,400 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:53:41,042 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:53:44,750 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:53:47,486 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:53:48,993 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:53:50,970 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/150041670
+2018-08-29 10:53:51,238 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取腾讯科技（深圳）有限公司第1条数据
+2018-08-29 10:53:52,005 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:53:52,326 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 10:53:52,560 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取美的集团股份有限公司第2条数据
+2018-08-29 10:53:53,553 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 10:53:53,581 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取佛山农村商业银行股份有限公司第3条数据
+2018-08-29 10:53:57,083 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 10:53:57,102 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第4条数据
+2018-08-29 10:53:58,102 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 8 pages downloaded.
+2018-08-29 10:54:00,599 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 10:53开始爬虫，2018-08-29 10:54结束爬虫，4条数据，一共用了39秒
+2018-08-29 10:54:00,600 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 10:54:00,600 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 10:54:00,600 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行4条查出来了
+2018-08-29 10:54:00,600 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 10:54:00,603 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 10:55:30,261 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @932ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 10:55:31,009 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 10:55开始启动爬虫
+2018-08-29 10:55:31,010 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 10:55:31,051 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 10:55:31,058 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 10:55:32,914 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 10:55:37,566 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 10:55:40,430 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 10:55:41,803 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:55:44,252 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 10:55:44,364 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:55:47,692 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:55:48,384 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 10:55:48,999 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:55:49,886 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:55:52,729 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 10:55:54,229 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:55:57,989 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 10:55:58,344 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:56:00,580 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:56:04,522 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/150041670
+2018-08-29 10:56:04,897 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取腾讯科技（深圳）有限公司第1条数据
+2018-08-29 10:56:04,931 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:56:05,897 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 10:56:06,161 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第2条数据
+2018-08-29 10:56:08,612 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 10:56:09,793 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 10:56:09,825 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取佛山农村商业银行股份有限公司第3条数据
+2018-08-29 10:56:14,102 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 10:56:14,135 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取美的集团股份有限公司第4条数据
+2018-08-29 10:56:15,136 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 8 pages downloaded.
+2018-08-29 10:56:18,305 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 10:55开始爬虫，2018-08-29 10:56结束爬虫，4条数据，一共用了47秒
+2018-08-29 10:56:18,305 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 10:56:18,305 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 10:56:18,306 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行4条查出来了
+2018-08-29 10:56:18,306 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 10:56:18,308 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共6条已经爬出
+2018-08-29 11:00:41,385 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @870ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:00:41,603 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:00开始启动爬虫
+2018-08-29 11:00:41,604 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:01:28,435 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:01:41,284 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 11:02:35,777 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1233ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:02:36,085 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:02开始启动爬虫
+2018-08-29 11:02:36,086 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:02:38,888 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:03:00,151 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1178ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:03:00,397 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:03开始启动爬虫
+2018-08-29 11:03:00,398 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:04:38,806 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:11:37,327 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1040ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:11:37,653 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:11开始启动爬虫
+2018-08-29 11:11:37,653 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:11:50,132 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:13:32,439 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @750ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:13:32,645 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:13开始启动爬虫
+2018-08-29 11:13:32,645 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:14:24,864 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:14:35,481 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有4条数据要抓
+2018-08-29 11:14:39,347 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 11:14:43,692 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @797ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:14:43,945 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:14开始启动爬虫
+2018-08-29 11:14:43,946 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:16:00,390 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @940ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:16:00,632 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:16开始启动爬虫
+2018-08-29 11:16:00,633 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:25:03,559 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1077ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:25:03,874 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:25开始启动爬虫
+2018-08-29 11:25:03,875 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:26:18,637 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1021ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:26:19,070 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:26开始启动爬虫
+2018-08-29 11:26:19,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:26:40,111 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:29:31,700 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @782ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 11:29:31,989 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 11:29开始启动爬虫
+2018-08-29 11:29:31,995 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 11:29:53,869 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 11:58:26,381 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 11:58:28,595 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 11:58:33,266 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 11:58:37,399 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 11:58:55,585 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 11:59:06,297 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 11:59:12,126 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 11:59:22,384 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第1条数据
+2018-08-29 11:59:23,385 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 11:59:24,664 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 11:29开始爬虫，2018-08-29 11:59结束爬虫，1条数据，一共用了1792秒
+2018-08-29 11:59:24,664 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 11:59:24,667 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共3条之前已经查出
+2018-08-29 11:59:24,672 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行1条查出来了
+2018-08-29 11:59:24,673 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 11:59:24,680 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 12:26:12,339 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1020ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:26:12,725 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:26开始启动爬虫
+2018-08-29 12:26:12,725 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:26:12,749 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 12:26:12,753 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 12:26:14,428 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:26:19,246 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 12:26:23,574 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:26:29,257 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:26:40,021 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:26:46,111 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 12:26:46,938 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第1条数据
+2018-08-29 12:26:47,939 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 12:26:49,418 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:26开始爬虫，2018-08-29 12:26结束爬虫，1条数据，一共用了37秒
+2018-08-29 12:26:49,420 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 12:26:49,422 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共3条之前已经查出
+2018-08-29 12:26:49,432 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行1条查出来了
+2018-08-29 12:26:49,432 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 12:26:49,435 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:28:31,915 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @805ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:28:32,238 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:28开始启动爬虫
+2018-08-29 12:28:32,238 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:28:32,260 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共3条已经爬出
+2018-08-29 12:28:32,265 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 12:28:33,956 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:28:38,006 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 12:28:42,373 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:28:47,583 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:28:58,763 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:29:04,227 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 12:29:04,500 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第1条数据
+2018-08-29 12:29:05,508 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 12:29:06,586 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:28开始爬虫，2018-08-29 12:29结束爬虫，1条数据，一共用了34秒
+2018-08-29 12:29:06,586 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有4条数据
+2018-08-29 12:29:06,588 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共3条之前已经查出
+2018-08-29 12:29:06,592 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行1条查出来了
+2018-08-29 12:29:06,592 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 12:29:06,596 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 12:35:35,871 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @828ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:35:36,112 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:35开始启动爬虫
+2018-08-29 12:35:36,113 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:35:36,135 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共4条已经爬出
+2018-08-29 12:35:36,139 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 12:35:37,339 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:35:41,270 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 12:35:45,041 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:35:50,627 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:36:01,348 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:36:07,407 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/51821286
+2018-08-29 12:36:07,779 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取娃哈哈商业股份有限公司第1条数据
+2018-08-29 12:36:38,784 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 2 pages downloaded.
+2018-08-29 12:36:40,114 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:35开始爬虫，2018-08-29 12:36结束爬虫，1条数据，一共用了64秒
+2018-08-29 12:36:40,115 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有5条数据
+2018-08-29 12:36:40,117 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共4条之前已经查出
+2018-08-29 12:36:40,127 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行1条查出来了
+2018-08-29 12:36:40,128 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 12:36:40,134 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:37:51,928 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @902ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:37:52,266 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:37开始启动爬虫
+2018-08-29 12:37:52,267 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:37:52,321 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:357) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 12:37:52,326 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有5条数据要抓
+2018-08-29 12:37:53,865 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:37:57,566 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 12:38:00,333 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 12:38:02,124 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:38:03,082 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 12:38:04,552 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:38:06,023 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 12:38:06,821 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:38:09,091 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:38:10,297 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:38:10,384 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 12:38:10,556 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:38:13,685 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:38:14,985 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:38:16,810 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:38:19,588 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:38:19,892 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:38:21,294 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:38:25,585 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:38:26,823 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 12:38:27,439 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/150041670
+2018-08-29 12:38:27,497 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取美的集团股份有限公司第1条数据
+2018-08-29 12:38:27,542 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:38:27,568 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取腾讯科技（深圳）有限公司第2条数据
+2018-08-29 12:38:30,591 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/51821286
+2018-08-29 12:38:30,670 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取娃哈哈商业股份有限公司第3条数据
+2018-08-29 12:38:31,210 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:38:32,886 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 12:38:32,912 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取佛山农村商业银行股份有限公司第4条数据
+2018-08-29 12:38:36,739 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 12:38:36,773 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取网易（杭州）网络有限公司第5条数据
+2018-08-29 12:38:37,774 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 10 pages downloaded.
+2018-08-29 12:38:41,515 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:37开始爬虫，2018-08-29 12:38结束爬虫，5条数据，一共用了49秒
+2018-08-29 12:38:41,516 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有5条数据
+2018-08-29 12:38:41,516 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 12:38:41,516 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行5条查出来了
+2018-08-29 12:38:41,516 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有0条抓取失败
+2018-08-29 12:38:41,519 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:51:28,967 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @993ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:51:29,297 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:51开始启动爬虫
+2018-08-29 12:51:29,297 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:51:29,364 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:51:29,369 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 12:51:31,111 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:51:35,262 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 12:51:39,127 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:51:44,340 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:51:55,135 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:51:58,569 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:90) 
+ - 1231233rdfdsf23erew在天眼查网站中无法查出
+2018-08-29 12:52:29,573 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 12:52:30,457 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:51开始爬虫，2018-08-29 12:52结束爬虫，1条数据，一共用了61秒
+2018-08-29 12:52:30,457 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有6条数据
+2018-08-29 12:52:30,458 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共5条之前已经查出
+2018-08-29 12:52:30,460 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行0条查出来了
+2018-08-29 12:52:30,471 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有1条抓取失败
+2018-08-29 12:52:30,483 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:55:25,175 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @860ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 12:55:25,380 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:167) 
+ - 2018-08-29 12:55开始启动爬虫
+2018-08-29 12:55:25,386 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:169) 
+ - 爬虫的线程数为8
+2018-08-29 12:55:25,496 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 12:55:25,501 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:175) 
+ - 还有1条数据要抓
+2018-08-29 12:55:27,076 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 12:55:30,942 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 12:55:34,692 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 12:55:39,505 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 12:55:50,275 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 12:55:53,729 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:90) 
+ - 1231233rdfdsf23erew在天眼查网站中无法查出
+2018-08-29 12:56:24,750 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 12:56:25,961 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:207) 
+ - 2018-08-29 12:55开始爬虫，2018-08-29 12:56结束爬虫，1条数据，一共用了60秒
+2018-08-29 12:56:25,961 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:208) 
+ - 该文件有6条数据
+2018-08-29 12:56:25,962 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:209) 
+ - 找到之前爬取过的文件，,一共5条之前已经查出
+2018-08-29 12:56:25,965 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:210) 
+ - 本次运行0条查出来了
+2018-08-29 12:56:25,967 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:212) 
+ - 有1条抓取失败
+2018-08-29 12:56:25,979 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:344) 
+ - 找到之前爬取过的文件，本此断点续爬,一共5条已经爬出
+2018-08-29 13:04:40,907 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @851ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:04:41,360 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:04开始启动爬虫
+2018-08-29 13:04:41,361 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:04:41,382 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:04:41,387 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有6条数据要抓
+2018-08-29 13:04:43,041 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:04:47,236 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 13:04:50,188 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 13:04:51,697 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:04:53,132 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 13:04:54,571 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:04:57,087 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:04:57,158 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:04:57,175 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 13:04:59,571 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:05:01,601 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:05:02,057 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 13:05:03,415 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:05:05,060 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:05:06,439 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:05:06,964 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:05:07,812 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:09,848 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2018-08-29 13:05:10,160 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:12,593 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:05:13,227 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:82) 
+ - 1231233rdfdsf23erew在天眼查网站中无法查出
+2018-08-29 13:05:13,891 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/150041670
+2018-08-29 13:05:14,450 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:15,017 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:70) 
+ - 成功爬取腾讯科技（深圳）有限公司第1条数据
+2018-08-29 13:05:16,955 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 等待查询结果页加载完毕
+2018-08-29 13:05:17,681 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:18,885 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/1207250686
+2018-08-29 13:05:18,926 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:109) 
+ - 网易（杭州）网络有限公司在天眼查网站中无法查出
+2018-08-29 13:05:22,133 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/51821286
+2018-08-29 13:05:22,137 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:109) 
+ - 娃哈哈商业股份有限公司在天眼查网站中无法查出
+2018-08-29 13:05:23,251 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:27,606 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:57) 
+ - 跳转到查询结果页成功
+2018-08-29 13:05:27,676 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/311225958
+2018-08-29 13:05:27,679 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:109) 
+ - 美的集团股份有限公司在天眼查网站中无法查出
+2018-08-29 13:05:32,284 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.tianyancha.com/company/2316837406
+2018-08-29 13:05:32,287 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:109) 
+ - 佛山农村商业银行股份有限公司在天眼查网站中无法查出
+2018-08-29 13:05:33,288 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 11 pages downloaded.
+2018-08-29 13:05:38,856 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 13:04开始爬虫，2018-08-29 13:05结束爬虫，6条数据，一共用了57秒
+2018-08-29 13:05:38,860 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有6条数据
+2018-08-29 13:05:38,860 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 13:05:38,860 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行1条查出来了
+2018-08-29 13:05:38,860 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有5条抓取失败
+2018-08-29 13:05:38,863 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:328) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
+2018-08-29 13:06:04,580 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @906ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:06:05,142 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:06开始启动爬虫
+2018-08-29 13:06:05,143 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:06:05,173 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:328) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
+2018-08-29 13:06:05,179 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有5条数据要抓
+2018-08-29 13:06:06,856 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:06:11,571 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 13:06:15,342 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 13:06:18,797 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 13:06:21,826 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@1c10b26e, name=网易（杭州）网络有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:06:22,751 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:06:25,100 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@13efdc31, name=美的集团股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:06:26,568 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 13:06:28,670 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@38f96081, name=1231233rdfdsf23erew}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:06:30,633 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@16fc132e, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:06:35,435 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@715a2fbd, name=娃哈哈商业股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:06:35,444 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 5 pages downloaded.
+2018-08-29 13:06:40,796 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 13:06开始爬虫，2018-08-29 13:06结束爬虫，5条数据，一共用了36秒
+2018-08-29 13:06:40,797 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有6条数据
+2018-08-29 13:06:40,797 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共1条之前已经查出
+2018-08-29 13:06:40,798 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 13:06:40,798 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有5条抓取失败
+2018-08-29 13:06:40,816 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:328) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
+2018-08-29 13:14:15,233 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @786ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:14:15,499 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:14开始启动爬虫
+2018-08-29 13:14:15,500 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:14:15,527 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:14:15,532 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有6条数据要抓
+2018-08-29 13:14:17,252 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:14:21,006 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 13:14:24,064 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 13:14:27,102 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 13:14:30,926 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 13:14:31,265 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@1c10b26e, name=腾讯科技（深圳）有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:33,604 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@13efdc31, name=网易（杭州）网络有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:34,453 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:14:36,833 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@27b89bba, name=1231233rdfdsf23erew}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:38,318 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 13:14:41,250 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@38f96081, name=娃哈哈商业股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:42,127 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@16fc132e, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:45,346 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@715a2fbd, name=美的集团股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:14:45,350 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 6 pages downloaded.
+2018-08-29 13:14:51,485 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 13:14开始爬虫，2018-08-29 13:14结束爬虫，6条数据，一共用了36秒
+2018-08-29 13:14:51,486 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有6条数据
+2018-08-29 13:14:51,487 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 13:14:51,487 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 13:14:51,488 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有6条抓取失败
+2018-08-29 13:14:51,490 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:16:09,084 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @857ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:16:09,424 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:16开始启动爬虫
+2018-08-29 13:16:09,425 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:16:16,241 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:16:16,246 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有6条数据要抓
+2018-08-29 13:16:17,688 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:16:21,552 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 13:16:24,466 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 13:16:27,494 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 13:16:30,579 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 13:16:34,503 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 13:16:38,290 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:20:50,966 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @900ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:20:51,248 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:20开始启动爬虫
+2018-08-29 13:20:51,249 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:20:51,269 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:20:51,274 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有6条数据要抓
+2018-08-29 13:20:52,887 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:20:56,911 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9
+2018-08-29 13:21:00,677 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a
+2018-08-29 13:21:04,541 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532
+2018-08-29 13:21:06,939 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@d2d29dc, name=网易（杭州）网络有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:07,702 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:21:11,124 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@24167f88, name=美的集团股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:11,338 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d
+2018-08-29 13:21:14,319 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be
+2018-08-29 13:21:15,176 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@49b43fbd, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:15,190 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@1695a6cb, name=娃哈哈商业股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:20,649 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@16fc132e, name=1231233rdfdsf23erew}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:21,535 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@4d09628f, name=腾讯科技（深圳）有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:21:21,538 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 6 pages downloaded.
+2018-08-29 13:21:27,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 13:20开始爬虫，2018-08-29 13:21结束爬虫，6条数据，一共用了36秒
+2018-08-29 13:21:27,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有6条数据
+2018-08-29 13:21:27,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 13:21:27,096 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 13:21:27,097 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有6条抓取失败
+2018-08-29 13:21:27,099 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:22:53,116 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=fb253a34ee720b55eecdd013287683c9', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@78cc7516, name=网易（杭州）网络有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:54,711 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=d385cce86acab84aa95686dff1fc598a', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@752d1a3e, name=美的集团股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:55,223 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=6ec6afadffba14d8b3d1ecf19b94fb7d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@55fb885e, name=1231233rdfdsf23erew}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:55,655 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=1d4a7d518604764a81c37bb2375379be', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@791b720f, name=腾讯科技（深圳）有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:55,840 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=ee5789f3c6b4baa12ab4d06e8a07c532', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@7dbb7861, name=娃哈哈商业股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:55,981 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@38ac41ce, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 13:22:55,983 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 6 pages downloaded.
+2018-08-29 13:23:02,643 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 13:16开始爬虫，2018-08-29 13:23结束爬虫，6条数据，一共用了413秒
+2018-08-29 13:23:02,643 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有6条数据
+2018-08-29 13:23:02,645 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 13:23:02,646 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 13:23:02,646 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有6条抓取失败
+2018-08-29 13:23:02,648 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:25:13,872 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @847ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:25:14,235 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:25开始启动爬虫
+2018-08-29 13:25:14,235 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:25:14,267 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:25:14,281 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 13:25:16,214 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:25:20,438 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:48:29,106 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @897ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:48:29,416 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:48开始启动爬虫
+2018-08-29 13:48:29,416 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:48:29,553 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:48:29,558 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 13:48:31,358 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:48:35,617 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 13:49:42,698 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1146ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 13:49:43,017 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 13:49开始启动爬虫
+2018-08-29 13:49:43,017 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 13:49:43,040 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 13:49:43,045 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 13:49:45,258 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 13:49:49,416 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:23:23,357 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1001ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:23:23,814 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:23开始启动爬虫
+2018-08-29 14:23:23,814 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:23:23,836 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:23:23,841 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:23:25,713 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:23:30,179 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:23:57,707 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@6ab74545, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 14:23:57,730 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 14:23:59,353 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 14:23开始爬虫，2018-08-29 14:23结束爬虫，1条数据，一共用了35秒
+2018-08-29 14:23:59,353 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有1条数据
+2018-08-29 14:23:59,354 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 14:23:59,354 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 14:23:59,354 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有1条抓取失败
+2018-08-29 14:23:59,359 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:24:12,438 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1310ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:24:12,759 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:24开始启动爬虫
+2018-08-29 14:24:12,760 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:24:12,780 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:24:12,785 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:24:14,676 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:24:19,843 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:33:12,896 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1024ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:33:13,186 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:33开始启动爬虫
+2018-08-29 14:33:13,187 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:33:13,212 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:33:13,217 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:33:15,133 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:33:19,524 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:35:27,722 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:51) 
+ - 进入到首页
+2018-08-29 14:37:28,863 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @777ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:37:29,065 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:37开始启动爬虫
+2018-08-29 14:37:29,066 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:37:29,092 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:37:29,099 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:37:31,043 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:37:36,058 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:40:01,945 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1046ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:40:02,244 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:40开始启动爬虫
+2018-08-29 14:40:02,245 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:40:02,272 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:40:02,277 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:40:04,445 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:40:09,812 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:41:31,984 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 14:41:42,978 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:65) 
+ - 等待查询结果页加载完毕
+2018-08-29 14:41:54,142 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 跳转到查询结果页成功
+2018-08-29 14:42:07,630 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@402cb860, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 14:42:07,643 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 14:42:09,064 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 14:40开始爬虫，2018-08-29 14:42结束爬虫，1条数据，一共用了127秒
+2018-08-29 14:42:09,065 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有1条数据
+2018-08-29 14:42:09,065 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 14:42:09,068 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 14:42:09,071 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有1条抓取失败
+2018-08-29 14:42:09,082 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:42:41,247 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1044ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:42:41,584 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:42开始启动爬虫
+2018-08-29 14:42:41,584 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:42:41,821 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:42:41,827 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:42:43,821 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:42:48,983 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:45:02,099 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 14:46:44,138 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @965ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:46:44,555 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:46开始启动爬虫
+2018-08-29 14:46:44,558 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:46:44,577 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:46:44,583 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:46:46,181 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:46:50,038 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:47:35,248 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 14:48:19,265 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 等待查询结果页加载完毕
+2018-08-29 14:48:38,919 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:69) 
+ - 跳转到查询结果页成功
+2018-08-29 14:53:42,123 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1072ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:53:42,455 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:53开始启动爬虫
+2018-08-29 14:53:42,456 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:53:42,509 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:53:42,516 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:53:44,159 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:53:49,221 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:55:33,890 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1063ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:55:34,370 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:55开始启动爬虫
+2018-08-29 14:55:34,370 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:55:34,395 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:55:34,400 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:55:36,224 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:55:40,784 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:56:41,334 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1002ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:56:41,690 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:56开始启动爬虫
+2018-08-29 14:56:41,691 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:56:41,713 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:56:41,718 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:56:43,528 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:56:48,730 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:57:24,838 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 14:57:48,942 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 等待查询结果页加载完毕
+2018-08-29 14:58:05,871 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:69) 
+ - 跳转到查询结果页成功
+2018-08-29 14:58:43,316 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1277ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:58:43,681 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:58开始启动爬虫
+2018-08-29 14:58:43,682 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:58:43,709 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:58:43,714 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:58:46,215 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:58:50,466 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:59:23,565 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1090ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 14:59:23,945 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 14:59开始启动爬虫
+2018-08-29 14:59:23,946 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 14:59:24,323 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 14:59:24,331 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 14:59:26,558 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 14:59:31,465 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 14:59:58,023 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 15:00:43,568 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @769ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:00:43,816 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:00开始启动爬虫
+2018-08-29 15:00:43,817 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:00:43,837 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:00:43,841 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:00:45,456 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:00:49,415 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:01:55,655 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:52) 
+ - 进入到首页
+2018-08-29 15:02:46,944 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:66) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:03:07,962 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:69) 
+ - 跳转到查询结果页成功
+2018-08-29 15:03:26,428 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@402cb860, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 15:03:26,482 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 15:03:27,742 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 15:00开始爬虫，2018-08-29 15:03结束爬虫，1条数据，一共用了164秒
+2018-08-29 15:03:27,743 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有1条数据
+2018-08-29 15:03:27,744 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 15:03:27,748 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 15:03:27,767 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有1条抓取失败
+2018-08-29 15:03:27,770 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:04:15,105 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1196ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:04:15,392 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:04开始启动爬虫
+2018-08-29 15:04:15,393 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:04:15,416 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:04:15,421 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:04:17,383 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:04:22,383 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:04:52,469 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@1d289ad5, name=佛山农村商业银行股份有限公司}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 15:04:52,531 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 15:04:54,023 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 15:04开始爬虫，2018-08-29 15:04结束爬虫，1条数据，一共用了38秒
+2018-08-29 15:04:54,023 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有1条数据
+2018-08-29 15:04:54,024 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 15:04:54,024 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 15:04:54,024 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有1条抓取失败
+2018-08-29 15:04:54,027 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:05:04,743 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @950ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:05:05,030 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:05开始启动爬虫
+2018-08-29 15:05:05,031 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:05:05,056 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:05:05,061 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:05:06,908 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:05:11,213 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:05:57,213 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @969ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:05:57,545 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:05开始启动爬虫
+2018-08-29 15:05:57,546 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:05:57,568 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:05:57,573 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:05:59,558 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:06:04,479 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:06:14,859 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1093ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:06:15,198 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:06开始启动爬虫
+2018-08-29 15:06:15,199 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:06:15,243 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:06:15,249 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:06:17,023 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:06:22,118 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:08:40,875 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1039ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:08:41,163 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:08开始启动爬虫
+2018-08-29 15:08:41,172 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:08:41,196 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:08:41,201 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:08:43,119 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:08:48,295 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:09:38,430 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:10:41,588 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:10:56,962 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 15:11:18,920 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1174ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:11:19,403 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:11开始启动爬虫
+2018-08-29 15:11:19,404 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:11:19,477 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:11:19,482 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:11:21,572 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:11:25,865 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=e3fb91e8c8bba6be5cd442d18921084d
+2018-08-29 15:12:03,015 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:12:13,400 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:12:29,870 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 15:15:10,155 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @861ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:15:10,397 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:15开始启动爬虫
+2018-08-29 15:15:10,397 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:15:10,417 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:15:10,423 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:15:11,861 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:15:15,753 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 15:15:50,882 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:16:14,404 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:16:30,704 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 15:29:51,738 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @938ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:29:52,042 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:29开始启动爬虫
+2018-08-29 15:29:52,043 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:29:52,081 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:29:52,091 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:29:54,233 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:29:59,362 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 15:30:24,728 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:30:58,240 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:31:19,913 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 15:42:30,570 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1001ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:42:30,887 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:42开始启动爬虫
+2018-08-29 15:42:30,888 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:42:30,922 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:42:30,927 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:42:32,730 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:42:37,007 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 15:42:57,873 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:43:07,619 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:43:21,324 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 15:45:41,432 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @816ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 15:45:41,676 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 15:45开始启动爬虫
+2018-08-29 15:45:41,677 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 15:45:41,707 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 15:45:41,711 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 15:45:43,222 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 15:46:47,808 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 15:48:30,005 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:54) 
+ - 进入到首页
+2018-08-29 15:48:37,081 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:68) 
+ - 等待查询结果页加载完毕
+2018-08-29 15:48:50,783 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:71) 
+ - 跳转到查询结果页成功
+2018-08-29 16:07:29,398 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1420ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 16:07:29,713 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 16:07开始启动爬虫
+2018-08-29 16:07:29,713 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 16:07:29,757 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 16:07:29,762 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 16:07:31,233 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 16:07:37,926 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 16:08:19,673 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:56) 
+ - 进入到首页
+2018-08-29 16:08:32,037 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:70) 
+ - 等待查询结果页加载完毕
+2018-08-29 16:08:47,723 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:73) 
+ - 跳转到查询结果页成功
+2018-08-29 16:09:28,369 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @835ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 16:09:28,598 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 16:09开始启动爬虫
+2018-08-29 16:09:28,599 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 16:09:28,615 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 16:09:28,619 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 16:09:29,918 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 16:09:33,989 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 16:12:00,786 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @760ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 16:12:01,005 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 16:12开始启动爬虫
+2018-08-29 16:12:01,005 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 16:12:01,027 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 16:12:01,031 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 16:12:02,264 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 16:12:06,073 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 16:15:42,239 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:56) 
+ - 进入到首页
+2018-08-29 16:15:59,840 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:70) 
+ - 等待查询结果页加载完毕
+2018-08-29 16:16:11,473 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:73) 
+ - 跳转到查询结果页成功
+2018-08-29 16:20:18,777 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @760ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 16:20:19,053 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 16:20开始启动爬虫
+2018-08-29 16:20:19,054 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 16:20:19,069 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 16:20:19,073 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 16:20:20,264 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 16:20:24,036 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 16:20:34,834 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:56) 
+ - 进入到首页
+2018-08-29 16:20:55,438 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:70) 
+ - 等待查询结果页加载完毕
+2018-08-29 16:21:08,337 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:73) 
+ - 跳转到查询结果页成功
+2018-08-29 19:56:44,908 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1455ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 19:56:45,154 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 19:56开始启动爬虫
+2018-08-29 19:56:45,163 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 19:56:45,185 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 19:56:45,188 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 19:56:46,698 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 19:56:53,408 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 19:57:20,729 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:56) 
+ - 进入到首页
+2018-08-29 19:57:29,973 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:70) 
+ - 等待查询结果页加载完毕
+2018-08-29 19:57:42,053 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:73) 
+ - 跳转到查询结果页成功
+2018-08-29 20:05:58,929 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @742ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 20:05:59,220 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 20:05开始启动爬虫
+2018-08-29 20:05:59,223 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 20:05:59,244 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 20:05:59,248 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 20:06:14,597 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @1010ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 20:06:14,916 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 20:06开始启动爬虫
+2018-08-29 20:06:14,917 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 20:06:14,938 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 20:06:14,943 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 20:06:17,180 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 20:06:21,444 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 20:07:13,400 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @966ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-29 20:07:13,870 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:151) 
+ - 2018-08-29 20:07开始启动爬虫
+2018-08-29 20:07:13,872 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:153) 
+ - 爬虫的线程数为8
+2018-08-29 20:07:13,900 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬
+2018-08-29 20:07:13,905 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:159) 
+ - 还有1条数据要抓
+2018-08-29 20:07:15,829 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider www.tianyancha.com started!
+2018-08-29 20:07:20,937 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5
+2018-08-29 20:08:01,226 ERROR us.codecraft.webmagic.Spider(Spider.java:324) 
+ - process request Request{url='http://www.tianyancha.com/aiccips?name=979d472a84804b9f647bc185a877a8b5', method='null', extras={actionHtmls=com.crawler.industry.guangdong.SearchAction@40b28998, name=213}, priority=0, headers={}, cookies={}} error
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.crawler.industry.guangdong.GuangDongIndustry.process(GuangDongIndustry.java:93)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-29 20:08:01,242 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider www.tianyancha.com closed! 1 pages downloaded.
+2018-08-29 20:08:02,645 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:191) 
+ - 2018-08-29 20:07开始爬虫，2018-08-29 20:08结束爬虫，1条数据，一共用了49秒
+2018-08-29 20:08:02,645 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:192) 
+ - 该文件有1条数据
+2018-08-29 20:08:02,646 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:193) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-08-29 20:08:02,646 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:194) 
+ - 本次运行0条查出来了
+2018-08-29 20:08:02,646 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:196) 
+ - 有1条抓取失败
+2018-08-29 20:08:02,648 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:341) 
+ - 没有找到已经下载好的文件，本此非断点续爬

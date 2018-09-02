@@ -1,0 +1,561 @@
+2017-11-07 09:12:43,529 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @541ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-11-07 09:12:43,555 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2017-11-07 09:12:48,980 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:61) 
+ - 进入到首页
+2017-11-07 09:12:55,110 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:181) 
+ - 滑块验证成功PhantomJSDriver: phantomjs on XP (c4b0a9e0-c358-11e7-9d47-9dcf81499081)
+2017-11-07 09:12:55,128 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:183) 
+ - 等待查询结果页加载完毕
+2017-11-07 09:12:57,174 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:186) 
+ - 跳转到查询结果页成功
+2017-11-07 09:12:58,523 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:195) 
+ - 自动获取得到了三个参数，可以绕过滑块了
+2017-11-07 09:12:58,524 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:189) 
+ - 三个参数获取成功
+2017-11-07 09:12:58,643 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:196) 
+ - 2017-11-07 09:12开始启动爬虫
+2017-11-07 09:12:58,646 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:324) 
+ - 已经已经下载好的公司0个
+2017-11-07 09:12:58,669 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:235) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-11-07 09:12:58,681 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:12:58,842 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:12:58,845 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,317 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:00,513 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-11-07 09:13:00,544 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:261) 
+ - 当前的参数是有效的
+2017-11-07 09:13:00,545 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:13:00,545 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-11-07 09:13:00,559 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:13:00,578 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,578 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,592 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,593 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,600 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,600 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,600 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,601 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,600 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,601 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,608 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,608 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,708 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:00,709 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:00,903 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:00,946 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:00,992 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,078 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,094 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:01,095 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:01,132 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:01,133 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:01,244 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,260 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:01,261 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:01,382 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:01,383 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:01,391 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,394 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,571 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:01,843 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:02,036 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:03,809 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:03,810 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:03,811 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:13:03,812 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:13:04,125 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:04,133 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:13:30,715 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:91) 
+ - download page http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html error
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-07 09:13:30,834 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 26 pages downloaded.
+2017-11-07 09:13:30,838 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:274) 
+ - 2017-11-07 09:12开始爬取详情页爬虫，2017-11-07 09:13结束爬虫，13条数据，一共用了32秒12成功查出0查不出来1条失败
+2017-11-07 09:13:30,839 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:402) 
+ - 新增缓存url结束
+2017-11-07 09:13:30,843 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:263) 
+ - 2017-11-07 09:13开始启动爬虫
+2017-11-07 09:13:30,844 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:265) 
+ - 爬虫的线程数为3
+2017-11-07 09:13:30,916 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:274) 
+ - 排除了0条查不出来的数据
+2017-11-07 09:13:30,918 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共0条已经爬出
+2017-11-07 09:13:30,921 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:277) 
+ - 还有13条数据要抓
+2017-11-07 09:13:30,930 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:448) 
+ - 12条数据被替换为详情页url,1条数据没有替换为详情url
+2017-11-07 09:13:30,933 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:290) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-11-07 09:13:30,945 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:13:34,873 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgNUb/cJ5jFWeZtuDaiLPjdtTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:13:35,212 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_3aGweGliGXG+4wEXMD5o0EpjhDxCIQQW2Aqm3LgH/yhTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:13:35,492 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_f22RhTN71aUFvOIWyAE/jiYhjaofYOP9OjhJtrQVzcWiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:13:36,452 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-d4200a060115&entType=2000&regOrg=440682
+2017-11-07 09:13:37,196 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00ad964b-010c-1000-e00d-3d2f0a060115&entType=2000&regOrg=440682
+2017-11-07 09:13:38,303 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=078709ff-013b-1000-e000-34000a060116&entType=2000&regOrg=440602
+2017-11-07 09:13:40,188 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=078709ff-013b-1000-e000-34000a060116&entType=2000&regOrg=440602
+2017-11-07 09:13:40,233 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石化销售有限公司广东佛山禅城体育馆便利店第1条数据
+2017-11-07 09:13:40,374 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00ad964b-010c-1000-e00d-3d2f0a060115&entType=2000&regOrg=440682
+2017-11-07 09:13:40,403 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东海富建设有限公司佛山分公司第2条数据
+2017-11-07 09:13:40,407 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-d4200a060115&entType=2000&regOrg=440682
+2017-11-07 09:13:40,423 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东永盛建筑工程有限公司佛山分公司第3条数据
+2017-11-07 09:13:46,229 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_iQFrrhutRx4TVoPOBTxbHPiFS6iy972iDPkqAXb/aySiRNHVa3OjFjvFlE8BfrFb-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:13:48,198 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_YkCXnywI0kaK2PEo9GYZBM3MSXYVuiQ7IAdaH6Be05RTAOYLpc4gxgb5a3wjX8k3-QuOaBlqqlUykdKokb5yijg==
+2017-11-07 09:13:48,684 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=0730b2e6-0126-1000-e001-26090a060116&entType=2000&regOrg=440682
+2017-11-07 09:13:50,965 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=0730b2e6-0126-1000-e001-26090a060116&entType=2000&regOrg=440682
+2017-11-07 09:13:50,994 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石油天然气股份有限公司广东佛山南海大沥经营部第4条数据
+2017-11-07 09:13:51,997 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=a162230f-010a-1000-e002-dd0e0a0c0115&entType=2000&regOrg=441900
+2017-11-07 09:13:52,366 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_I129dVAls6tbMNZyDIQ84q64CPOkopQCGDS/+IV+Mr6iRNHVa3OjFjvFlE8BfrFb-q1d+FAeb99tNXz0PkuiXwA==
+2017-11-07 09:13:56,545 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=a162230f-010a-1000-e002-dd0e0a0c0115&entType=2000&regOrg=441900
+2017-11-07 09:13:56,573 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东省佛山公路工程有限公司东莞分公司第5条数据
+2017-11-07 09:14:01,481 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=06c54fd2-0129-1000-e000-45700a060116&entType=2000&regOrg=440681
+2017-11-07 09:14:01,857 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgBV+vkwakl1zhWpQpKdTyaRTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:14:06,104 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_IZJ52vp28p3/0YRb8BUIjNv8NyQqPhP0Vt+jDX8E/oBTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:14:07,040 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-75b50a060115&entType=2000&regOrg=440682
+2017-11-07 09:14:10,660 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=06c54fd2-0129-1000-e000-45700a060116&entType=2000&regOrg=440681
+2017-11-07 09:14:10,676 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东宏大广航工程有限公司佛山分公司第6条数据
+2017-11-07 09:14:12,032 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=0733ec47-0126-1000-e000-78450a060115&entType=2000&regOrg=440602
+2017-11-07 09:14:14,570 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-75b50a060115&entType=2000&regOrg=440682
+2017-11-07 09:14:14,611 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东保力得供应链服务有限公司佛山分公司第7条数据
+2017-11-07 09:14:15,614 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgH1zHVbT1DGP2NIM4JVldwlTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:14:16,685 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=0733ec47-0126-1000-e000-78450a060115&entType=2000&regOrg=440602
+2017-11-07 09:14:16,703 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东天拓资讯科技有限公司佛山分公司第8条数据
+2017-11-07 09:14:18,374 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-1c720a060115&entType=2000&regOrg=440602
+2017-11-07 09:14:19,613 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-1c720a060115&entType=2000&regOrg=440602
+2017-11-07 09:14:19,628 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东宏景科技股份有限公司佛山分公司第9条数据
+2017-11-07 09:14:21,250 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_xAZc8wjr6aTt2yl8rzU0q4Dyo2JEEoJ0d+XbpyEquZxmvMadOg+/ch5v3UuZp13p-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:14:22,532 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_n3hUFCpYxNKd+Mk5HKQfKlOdRw5Hkct8XnHCQ1kZ45/0j0VLzbjoKjYLdlnH81Oa-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:14:23,214 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=072d083e-7a5f-489a-ab0e-40216bc06555&entType=2000&regOrg=440602
+2017-11-07 09:14:23,710 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_9rKyVyh683nj1wK/A9b4nB7jcSKGuih4AslKmHMmCef33Mv4mpn7qAKldFhrdCln-Yo1vDaPPmlocGn8BN2rqNg==
+2017-11-07 09:14:24,682 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=072d083e-7a5f-489a-ab0e-40216bc06555&entType=2000&regOrg=440602
+2017-11-07 09:14:24,700 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东星艺装饰有限公司佛山分公司第10条数据
+2017-11-07 09:14:25,770 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=072bf6f4-0948-420d-823f-038b758c2b33&entType=2000&regOrg=440602
+2017-11-07 09:14:26,453 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=072bf6f4-0948-420d-823f-038b758c2b33&entType=2000&regOrg=440602
+2017-11-07 09:14:26,462 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石化销售有限公司广东佛山大桥加油站第11条数据
+2017-11-07 09:14:26,987 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=01328127-6df6-4021-8e22-26d7c6d27250&entType=1100&regOrg=440600
+2017-11-07 09:14:28,670 INFO com.crawler.selenium.SeleniumDownloader(SeleniumDownloader.java:89) 
+ - downloading page http://gd.gsxt.gov.cn/aiccips?name=488233ae685fc4bce561d4f30c392876
+2017-11-07 09:14:29,045 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=01328127-6df6-4021-8e22-26d7c6d27250&entType=1100&regOrg=440600
+2017-11-07 09:14:29,060 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东佛山船务代理有限公司第12条数据
+2017-11-07 09:14:33,111 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:41) 
+ - 进入到首页
+2017-11-07 09:14:39,090 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:138) 
+ - 验证通过:---3.4 秒的速度超过 83% 的用户
+2017-11-07 09:14:39,090 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:140) 
+ - 滑块验证成功PhantomJSDriver: phantomjs on XP (007e43b0-c359-11e7-830a-d793dec5cc29)
+2017-11-07 09:14:39,090 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:141) 
+ - 等待查询结果页加载完毕
+2017-11-07 09:14:39,996 INFO com.crawler.industry.guangdong.SearchAction(SearchAction.java:144) 
+ - 跳转到查询结果页成功
+2017-11-07 09:14:46,035 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/GSpublicity/GSpublicityList.html?service=entInfo_OsbB75XQ3clX+XLzLIRyuxq04CU/vzcTZ3qUYTdOyOhTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:14:46,425 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=01452cbe-012d-1000-e000-318c0a060115&entType=2000&regOrg=440682
+2017-11-07 09:14:46,602 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=01452cbe-012d-1000-e000-318c0a060115&entType=2000&regOrg=440682
+2017-11-07 09:14:46,648 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东恒正建设集团有限公司佛山分公司第13条数据
+2017-11-07 09:14:47,649 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 14 pages downloaded.
+2017-11-07 09:14:48,619 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:310) 
+ - 2017-11-07 09:13开始爬虫，2017-11-07 09:14结束爬虫，13条数据，一共用了77秒
+2017-11-07 09:14:48,620 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:311) 
+ - 该文件有13条数据
+2017-11-07 09:14:48,620 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:312) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2017-11-07 09:14:48,621 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:313) 
+ - 有0条数据是该网站无法查出的
+2017-11-07 09:14:48,621 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:314) 
+ - 本次运行13条查出来了
+2017-11-07 09:14:48,621 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:316) 
+ - 有0条抓取失败
+2017-11-07 09:14:48,627 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共13条已经爬出
+2017-11-07 09:15:16,442 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @323ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-11-07 09:15:16,465 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2017-11-07 09:15:23,814 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:61) 
+ - 进入到首页
+2017-11-07 09:15:30,327 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:181) 
+ - 滑块验证成功PhantomJSDriver: phantomjs on XP (1f3a0050-c359-11e7-bd21-77e56712946d)
+2017-11-07 09:15:30,344 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:183) 
+ - 等待查询结果页加载完毕
+2017-11-07 09:15:41,024 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:186) 
+ - 跳转到查询结果页成功
+2017-11-07 09:15:42,039 INFO com.crawler.industry.guangdong.GeetestUtils(GeetestUtils.java:195) 
+ - 自动获取得到了三个参数，可以绕过滑块了
+2017-11-07 09:15:42,040 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:189) 
+ - 三个参数获取成功
+2017-11-07 09:15:42,173 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:196) 
+ - 2017-11-07 09:15开始启动爬虫
+2017-11-07 09:15:42,177 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:324) 
+ - 已经已经下载好的公司0个
+2017-11-07 09:15:42,195 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:235) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-11-07 09:15:42,204 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:15:42,406 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:42,408 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:42,865 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,053 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-11-07 09:15:43,058 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:261) 
+ - 当前的参数是有效的
+2017-11-07 09:15:43,059 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:15:43,060 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 2 pages downloaded.
+2017-11-07 09:15:43,068 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:15:43,101 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,103 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,116 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,116 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,117 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,117 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,122 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,122 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,126 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,127 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,128 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,129 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,129 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,130 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,132 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,132 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,226 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,227 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,334 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,340 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,365 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,386 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,392 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,396 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,508 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,572 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,573 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,576 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,577 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,578 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,578 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,584 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2017-11-07 09:15:43,584 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/verify/sec.html
+2017-11-07 09:15:43,657 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,828 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,861 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,865 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:43,909 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:44,214 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/CheckEntContext/showCheck.html
+2017-11-07 09:15:44,353 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 26 pages downloaded.
+2017-11-07 09:15:44,354 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:274) 
+ - 2017-11-07 09:15开始爬取详情页爬虫，2017-11-07 09:15结束爬虫，13条数据，一共用了2秒13成功查出0查不出来0条失败
+2017-11-07 09:15:44,355 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:402) 
+ - 新增缓存url结束
+2017-11-07 09:15:44,357 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:263) 
+ - 2017-11-07 09:15开始启动爬虫
+2017-11-07 09:15:44,357 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:265) 
+ - 爬虫的线程数为3
+2017-11-07 09:15:44,362 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:274) 
+ - 排除了0条查不出来的数据
+2017-11-07 09:15:44,363 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共0条已经爬出
+2017-11-07 09:15:44,364 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:277) 
+ - 还有13条数据要抓
+2017-11-07 09:15:44,380 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:448) 
+ - 13条数据被替换为详情页url,0条数据没有替换为详情url
+2017-11-07 09:15:44,389 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:290) 
+ - 您设置了代理[Proxy{host='104.0.33.133', port=8080, username='null', password='null'}]
+2017-11-07 09:15:44,393 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2017-11-07 09:15:46,099 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_I129dVAls6tbMNZyDIQ84q64CPOkopQCGDS/+IV+Mr6iRNHVa3OjFjvFlE8BfrFb-q1d+FAeb99tNXz0PkuiXwA==
+2017-11-07 09:15:46,342 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_OsbB75XQ3clX+XLzLIRyuxq04CU/vzcTZ3qUYTdOyOhTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:15:47,581 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=01452cbe-012d-1000-e000-318c0a060115&entType=2000&regOrg=440682
+2017-11-07 09:15:47,732 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=06c54fd2-0129-1000-e000-45700a060116&entType=2000&regOrg=440681
+2017-11-07 09:15:48,643 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=01452cbe-012d-1000-e000-318c0a060115&entType=2000&regOrg=440682
+2017-11-07 09:15:48,688 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东恒正建设集团有限公司佛山分公司第1条数据
+2017-11-07 09:15:48,769 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_iQFrrhutRx4TVoPOBTxbHPiFS6iy972iDPkqAXb/aySiRNHVa3OjFjvFlE8BfrFb-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:15:49,032 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=06c54fd2-0129-1000-e000-45700a060116&entType=2000&regOrg=440681
+2017-11-07 09:15:49,040 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东宏大广航工程有限公司佛山分公司第2条数据
+2017-11-07 09:15:49,296 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=0730b2e6-0126-1000-e001-26090a060116&entType=2000&regOrg=440682
+2017-11-07 09:15:51,741 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=0730b2e6-0126-1000-e001-26090a060116&entType=2000&regOrg=440682
+2017-11-07 09:15:51,766 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石油天然气股份有限公司广东佛山南海大沥经营部第3条数据
+2017-11-07 09:15:52,283 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_YkCXnywI0kaK2PEo9GYZBM3MSXYVuiQ7IAdaH6Be05RTAOYLpc4gxgb5a3wjX8k3-QuOaBlqqlUykdKokb5yijg==
+2017-11-07 09:15:52,460 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgBV+vkwakl1zhWpQpKdTyaRTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:15:53,072 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=a162230f-010a-1000-e002-dd0e0a0c0115&entType=2000&regOrg=441900
+2017-11-07 09:15:53,982 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-75b50a060115&entType=2000&regOrg=440682
+2017-11-07 09:15:54,181 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=a162230f-010a-1000-e002-dd0e0a0c0115&entType=2000&regOrg=441900
+2017-11-07 09:15:54,232 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东省佛山公路工程有限公司东莞分公司第4条数据
+2017-11-07 09:15:54,306 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_IZJ52vp28p3/0YRb8BUIjNv8NyQqPhP0Vt+jDX8E/oBTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:15:54,740 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-75b50a060115&entType=2000&regOrg=440682
+2017-11-07 09:15:54,757 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东保力得供应链服务有限公司佛山分公司第5条数据
+2017-11-07 09:15:55,238 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=0733ec47-0126-1000-e000-78450a060115&entType=2000&regOrg=440602
+2017-11-07 09:15:56,629 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgNUb/cJ5jFWeZtuDaiLPjdtTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:15:57,418 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=0733ec47-0126-1000-e000-78450a060115&entType=2000&regOrg=440602
+2017-11-07 09:15:57,435 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东天拓资讯科技有限公司佛山分公司第6条数据
+2017-11-07 09:15:57,952 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-d4200a060115&entType=2000&regOrg=440682
+2017-11-07 09:15:59,534 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_9rKyVyh683nj1wK/A9b4nB7jcSKGuih4AslKmHMmCef33Mv4mpn7qAKldFhrdCln-Yo1vDaPPmlocGn8BN2rqNg==
+2017-11-07 09:15:59,832 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_xAZc8wjr6aTt2yl8rzU0q4Dyo2JEEoJ0d+XbpyEquZxmvMadOg+/ch5v3UuZp13p-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:16:01,535 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-d4200a060115&entType=2000&regOrg=440682
+2017-11-07 09:16:01,551 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东永盛建筑工程有限公司佛山分公司第7条数据
+2017-11-07 09:16:01,943 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=01328127-6df6-4021-8e22-26d7c6d27250&entType=1100&regOrg=440600
+2017-11-07 09:16:02,103 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=072d083e-7a5f-489a-ab0e-40216bc06555&entType=2000&regOrg=440602
+2017-11-07 09:16:03,449 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=01328127-6df6-4021-8e22-26d7c6d27250&entType=1100&regOrg=440600
+2017-11-07 09:16:03,470 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东佛山船务代理有限公司第8条数据
+2017-11-07 09:16:03,642 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=072d083e-7a5f-489a-ab0e-40216bc06555&entType=2000&regOrg=440602
+2017-11-07 09:16:03,663 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东星艺装饰有限公司佛山分公司第9条数据
+2017-11-07 09:16:04,359 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_n3hUFCpYxNKd+Mk5HKQfKlOdRw5Hkct8XnHCQ1kZ45/0j0VLzbjoKjYLdlnH81Oa-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:16:04,949 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=072bf6f4-0948-420d-823f-038b758c2b33&entType=2000&regOrg=440602
+2017-11-07 09:16:05,441 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_3aGweGliGXG+4wEXMD5o0EpjhDxCIQQW2Aqm3LgH/yhTAOYLpc4gxgb5a3wjX8k3-fjzeLcEHRI/eVvwzlNOW1w==
+2017-11-07 09:16:05,924 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_lyvVo8w8x/0epDwOcKpdgH1zHVbT1DGP2NIM4JVldwlTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:16:06,452 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00ad964b-010c-1000-e00d-3d2f0a060115&entType=2000&regOrg=440682
+2017-11-07 09:16:06,721 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=072bf6f4-0948-420d-823f-038b758c2b33&entType=2000&regOrg=440602
+2017-11-07 09:16:06,738 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石化销售有限公司广东佛山大桥加油站第10条数据
+2017-11-07 09:16:07,908 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=00373f07-0136-1000-e001-1c720a060115&entType=2000&regOrg=440602
+2017-11-07 09:16:08,198 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00373f07-0136-1000-e001-1c720a060115&entType=2000&regOrg=440602
+2017-11-07 09:16:08,214 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东宏景科技股份有限公司佛山分公司第11条数据
+2017-11-07 09:16:08,354 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=00ad964b-010c-1000-e00d-3d2f0a060115&entType=2000&regOrg=440682
+2017-11-07 09:16:08,363 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取广东海富建设有限公司佛山分公司第12条数据
+2017-11-07 09:16:09,143 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_f22RhTN71aUFvOIWyAE/jiYhjaofYOP9OjhJtrQVzcWiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg==
+2017-11-07 09:16:10,625 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipUnuDirInfo&entNo=078709ff-013b-1000-e000-34000a060116&entType=2000&regOrg=440602
+2017-11-07 09:16:11,874 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=cipBlackInfo&entNo=078709ff-013b-1000-e000-34000a060116&entType=2000&regOrg=440602
+2017-11-07 09:16:11,890 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取中国石化销售有限公司广东佛山禅城体育馆便利店第13条数据
+2017-11-07 09:16:12,891 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 13 pages downloaded.
+2017-11-07 09:16:12,893 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:310) 
+ - 2017-11-07 09:15开始爬虫，2017-11-07 09:16结束爬虫，13条数据，一共用了28秒
+2017-11-07 09:16:12,894 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:311) 
+ - 该文件有13条数据
+2017-11-07 09:16:12,894 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:312) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2017-11-07 09:16:12,895 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:313) 
+ - 有0条数据是该网站无法查出的
+2017-11-07 09:16:12,897 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:314) 
+ - 本次运行13条查出来了
+2017-11-07 09:16:12,898 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:316) 
+ - 有0条抓取失败
+2017-11-07 09:16:12,903 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共13条已经爬出

@@ -1,0 +1,68 @@
+2018-04-13 12:49:58,483 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @397ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-04-13 12:49:58,510 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2018-04-13 12:52:07,458 INFO org.eclipse.jetty.util.log(Log.java:192) 
+ - Logging initialized @541ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-04-13 12:52:07,491 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:399) 
+ - 开始新增缓存url
+2018-04-13 12:53:51,454 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:192) 
+ - 三个参数自动获取失败
+2018-04-13 12:53:51,541 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:196) 
+ - 2018-04-13 12:53开始启动爬虫
+2018-04-13 12:53:51,773 INFO com.crawler.industry.guangdong.GuangDongIndustryFast(GuangDongIndustryFast.java:324) 
+ - 已经已经下载好的公司4个
+2018-04-13 12:53:51,785 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:402) 
+ - 新增缓存url结束
+2018-04-13 12:53:51,787 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:263) 
+ - 2018-04-13 12:53开始启动爬虫
+2018-04-13 12:53:51,787 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:265) 
+ - 爬虫的线程数为3
+2018-04-13 12:53:51,792 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:274) 
+ - 排除了0条查不出来的数据
+2018-04-13 12:53:51,793 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共0条已经爬出
+2018-04-13 12:53:51,794 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:277) 
+ - 还有4条数据要抓
+2018-04-13 12:53:51,965 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:448) 
+ - 4条数据被替换为详情页url,0条数据没有替换为详情url
+2018-04-13 12:53:51,998 INFO us.codecraft.webmagic.Spider(Spider.java:306) 
+ - Spider gd.gsxt.gov.cn started!
+2018-04-13 12:53:53,499 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2018-04-13 12:53:53,501 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_K50rTqIQNCLu6d+MTWCKknQMrjWWkxrybA8yN3ONvadTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg==
+2018-04-13 12:53:53,502 INFO us.codecraft.webmagic.Spider(Spider.java:422) 
+ - page status code error, page http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_K50rTqIQNCLu6d+MTWCKknQMrjWWkxrybA8yN3ONvadTAOYLpc4gxgb5a3wjX8k3-xT4RauWNHMXwitj3hLbtLg== , code: 521
+2018-04-13 12:53:53,511 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2018-04-13 12:53:53,513 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_ySUnwhV/92wCLviPO6IxNaQ/RTu8Bo4tNyhJ2XGWdeeiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg==
+2018-04-13 12:53:53,513 INFO us.codecraft.webmagic.Spider(Spider.java:422) 
+ - page status code error, page http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_ySUnwhV/92wCLviPO6IxNaQ/RTu8Bo4tNyhJ2XGWdeeiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg== , code: 521
+2018-04-13 12:53:54,559 WARN us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:136) 
+ - Charset autodetect failed, use UTF-8 as charset. Please specify charset in Site.setCharset()
+2018-04-13 12:53:54,559 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_WuB/upYZ59hBXLQrZXgfdWajB3fbLTKw+UBwZCI/nDuiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg==
+2018-04-13 12:53:54,560 INFO us.codecraft.webmagic.Spider(Spider.java:422) 
+ - page status code error, page http://gd.gsxt.gov.cn/aiccips/GSpublicity/GSpublicityList.html?service=entInfo_WuB/upYZ59hBXLQrZXgfdWajB3fbLTKw+UBwZCI/nDuiRNHVa3OjFjvFlE8BfrFb-xT4RauWNHMXwitj3hLbtLg== , code: 521
+2018-04-13 12:53:55,622 INFO us.codecraft.webmagic.downloader.HttpClientDownloader(HttpClientDownloader.java:88) 
+ - downloading page success https://www.szcredit.org.cn/GJQYCredit/GSZJGSPTS/QYGS.aspx?rid=6B553DC2860F51DD353E04C1E89BB7BC5C63BD918856131FAE7CBA2D73CC17E6
+2018-04-13 12:53:55,818 INFO com.crawler.pipeline.FastFosanPipeline(FastFosanPipeline.java:105) 
+ - 成功爬取深圳市福田区�v玛卫浴厂第1条数据
+2018-04-13 12:53:56,818 INFO us.codecraft.webmagic.Spider(Spider.java:338) 
+ - Spider gd.gsxt.gov.cn closed! 4 pages downloaded.
+2018-04-13 12:53:56,824 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:310) 
+ - 2018-04-13 12:53开始爬虫，2018-04-13 12:53结束爬虫，4条数据，一共用了5秒
+2018-04-13 12:53:56,824 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:311) 
+ - 该文件有4条数据
+2018-04-13 12:53:56,825 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:312) 
+ - 找到之前爬取过的文件，,一共0条之前已经查出
+2018-04-13 12:53:56,825 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:313) 
+ - 有25条数据是该网站无法查出的
+2018-04-13 12:53:56,826 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:314) 
+ - 本次运行1条查出来了
+2018-04-13 12:53:56,826 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:316) 
+ - 有3条抓取失败
+2018-04-13 12:53:56,829 INFO com.crawler.industry.guangdong.GuangDongIndustry(GuangDongIndustry.java:470) 
+ - 找到之前爬取过的文件，本此断点续爬,一共1条已经爬出
