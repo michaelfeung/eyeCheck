@@ -14,6 +14,7 @@ public class GdTest {
     public static void main(String[] args) {
         GuangDongIndustry guangDongIndustry=new GuangDongIndustry();
         guangDongIndustry.startCrawler(CrawlerConfig.testPath);
+        System.out.println("hello");
     }
     public static void main1(String[] args) throws Exception {
 //        GuangDongIndustry guangDongIndustry=new GuangDongIndustry();
